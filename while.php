@@ -9,15 +9,13 @@
 <body>
     <h1>IT'S ARRAYS BOIZZZZZZ</h1>
     <?php
-        // Aight, let's set some vars
-        $colors = array('red', 'green', 'blue');
-        $i=A;
-        
-        while($i<count ($colors))
-        {
-            echo "The color of " . ($i+1) . "is" . $colors[$1];
-            $i++;
-        }
+    $days = array("Mon","Tue","Wed","Thu","Fri","sat","Sun");
+    $i=0;
+    while ($i<count($days))
+    {
+        echo("Day ".($i+1)." is ".$days[$i]."<br>");
+        $i++;
+    }
     ?>
 </body>
 </html>
